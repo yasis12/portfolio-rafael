@@ -3,7 +3,7 @@ import './LandingPage.css'
 function LandingPage() {
   return (
     <>
-      <h1>Hello LandingPage</h1>
+      <h1>Hi I'm Rafael</h1>
     </>
   );
 }
