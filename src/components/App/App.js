@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 // Component Imports
 import Nav from '../Nav/Nav';
@@ -10,19 +10,30 @@ import Contact from '../Contact/Contact';
 import Work from '../Work/Work';
 import Footer from '../Footer/Footer';
 
-//todo: Get nav bar working
+
 function App() {
   return (
-    <Router>
-      <div>
-        <Nav />
-        <Route path="/LandingPage" component={LandingPage} />
-        <Route path="/about" component={About} />
-        <Route path="/contact" component={Contact} />
-        <Route path="/work" component={Work} />
-        <Footer />
-      </div>
-    </Router>
+    <div className='Page'>
+      <Router>
+        <div>
+          <div className='NavBar'>
+            <Nav />
+          </div>
+          <div className='Routes'>
+          <Routes>
+              <Route path="/about" element={<About />} />
+              <Route path="/contact" element={<Contact />} />
+              <Route path="/work" element={<Work />} />
+              <Route path="/" element={<LandingPage />} />
+            </Routes>
+          </div>
+          <div className='Footer'>
+            <Footer />
+          </div>
+        </div>
+      </Router>
+    </div>
+   
   );
 }
 
