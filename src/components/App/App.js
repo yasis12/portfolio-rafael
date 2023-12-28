@@ -1,11 +1,21 @@
 import './App.css';
 //Component Imports
-import Portfolio from '../Portfolio/Portfolio';
+import NavBar from '../NavBar/NavBar';
+import LandingPage from '../LandingPage/LandingPage'
+import About from '../About/About';
+import Contact from '../Contact/Contact';
+import Work from '../Work/Work';
+import Footer from '../Footer/Footer';
 
 function App() {
   return (
     <>
-      <Portfolio />
+      <NavBar />
+      <LandingPage />
+      <About />
+      <Contact />
+      <Work />
+      <Footer />
     </>
   );
 }
