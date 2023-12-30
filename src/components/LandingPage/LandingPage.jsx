@@ -14,81 +14,81 @@ function LandingPage() {
       </div>
       <div id='button-card'>
         <form onSubmit={submitButton}>
-          <div id='button-row-top'>
-            <div id='button-top-one'>
+          <div className='button-row'>
+            <div className='button-container'>
               <button>[...]</button>
             </div>
-            <div id='button-top-two'>
+            <div className='button-container'>
               <button>[...]</button>
             </div>
-            <div id='button-top-three'>
+            <div className='button-container'>
               <button>[...]</button>
             </div>
-            <div id='button-top-four'>
+            <div className='button-container'>
               <button>[...]</button>
             </div>
-            <div id='button-top-five'>
+            <div className='button-container'>
               <button>[...]</button>
             </div>
-            <div id='button-top-six'>
+            <div className='button-container'>
               <button>[...]</button>
             </div>
-            <div id='button-top-seven'>
+            <div className='button-container'>
               <button>[...]</button>
             </div>
-            <div id='button-top-eight'>
-              <button>[...]</button>
-            </div>
-          </div>
-          <div id='button-row-middle'>
-            <div id='button-middle-one'>
-              <button>[...]</button>
-            </div>
-            <div id='button-middle-two'>
-              <button>[...]</button>
-            </div>
-            <div id='button-middle-three'>
-              <button>[...]</button>
-            </div>
-            <div id='button-middle-four'>
-              <button>[...]</button>
-            </div>
-            <div id='button-middle-five'>
-              <button>[...]</button>
-            </div>
-            <div id='button-middle-six'>
-              <button>[...]</button>
-            </div>
-            <div id='button-middle-seven'>
-              <button>[...]</button>
-            </div>
-            <div id='button-middle-eight'>
+            <div className='button-container'>
               <button>[...]</button>
             </div>
           </div>
-          <div id='button-row-bottom'>
-            <div id='button-bottom-one'>
+          <div className='button-row'>
+            <div className='button-container'>
               <button>[...]</button>
             </div>
-            <div id='button-bottom-two'>
+            <div className='button-container'>
               <button>[...]</button>
             </div>
-            <div id='button-bottom-three'>
+            <div className='button-container'>
               <button>[...]</button>
             </div>
-            <div id='button-bottom-four'>
+            <div className='button-container'>
               <button>[...]</button>
             </div>
-            <div id='button-bottom-five'>
+            <div className='button-container'>
               <button>[...]</button>
             </div>
-            <div id='button-bottom-six'>
+            <div className='button-container'>
               <button>[...]</button>
             </div>
-            <div id='button-bottom-seven'>
+            <div className='button-container'>
               <button>[...]</button>
             </div>
-            <div id='button-bottom-eight'>
+            <div className='button-container'>
+              <button>[...]</button>
+            </div>
+          </div>
+          <div className='button-row'>
+            <div className='button-container'>
+              <button>[...]</button>
+            </div>
+            <div className='button-container'>
+              <button>[...]</button>
+            </div>
+            <div className='button-container'>
+              <button>[...]</button>
+            </div>
+            <div className='button-container'>
+              <button>[...]</button>
+            </div>
+            <div className='button-container'>
+              <button>[...]</button>
+            </div>
+            <div className='button-container'>
+              <button>[...]</button>
+            </div>
+            <div className='button-container'>
+              <button>[...]</button>
+            </div>
+            <div className='button-container'>
               <button>[...]</button>
             </div>
           </div>
