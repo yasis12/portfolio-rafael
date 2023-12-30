@@ -10,7 +10,7 @@ function LandingPage() {
     <>
     <div className='LandingPage'>
       <div id='landingPageTitle'>
-        <h1>Hi I'm Rafael</h1>
+        <h1 id='landing-title'>Hi I'm Rafael</h1>
       </div>
       <div id='button-card'>
         <form onSubmit={submitButton}>
@@ -33,12 +33,6 @@ function LandingPage() {
             <div className='button-container'>
               <button>[...]</button>
             </div>
-            <div className='button-container'>
-              <button>[...]</button>
-            </div>
-            <div className='button-container'>
-              <button>[...]</button>
-            </div>
           </div>
           <div className='button-row'>
             <div className='button-container'>
@@ -59,20 +53,8 @@ function LandingPage() {
             <div className='button-container'>
               <button>[...]</button>
             </div>
-            <div className='button-container'>
-              <button>[...]</button>
-            </div>
-            <div className='button-container'>
-              <button>[...]</button>
-            </div>
           </div>
           <div className='button-row'>
-            <div className='button-container'>
-              <button>[...]</button>
-            </div>
-            <div className='button-container'>
-              <button>[...]</button>
-            </div>
             <div className='button-container'>
               <button>[...]</button>
             </div>
