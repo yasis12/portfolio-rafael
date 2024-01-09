@@ -71,27 +71,43 @@ function LandingPage() {
               <input type="week" />
             </div>
           </div>
+          {/* Start bottom password thingy */}
           <div className='button-row'>
             <div className='button-container'>
               <input type="checkbox" />
+              <input className='passwordbutton' type="checkbox" />
+              <input type="checkbox" />
+              <input className='passwordbutton' type="checkbox" />
+            </div>
+            <div className='button-container'>
+              <input type="checkbox" />
+              <input type="checkbox" />
+              <input className='passwordbutton' type="checkbox" />
+              <input type="checkbox" />
+            </div>
+            <div className='button-container'>
+              <input type="checkbox" />
+              <input className='passwordbutton' type="checkbox" />
+              <input type="checkbox" />
+              <input type="checkbox" />
+            </div>
+            <div className='button-container'>
               <input type="checkbox" />
               <input type="checkbox" />
               <input type="checkbox" />
+              <input className='passwordbutton' type="checkbox" />
             </div>
             <div className='button-container'>
-              <button>[...]</button>
+                <input  type="checkbox" />
+                <input className='passwordbutton' type="checkbox" />
+                <input type="checkbox" />
+                <input type="checkbox" />
             </div>
             <div className='button-container'>
-              <button>[...]</button>
-            </div>
-            <div className='button-container'>
-              <button>[...]</button>
-            </div>
-            <div className='button-container'>
-              <button>[...]</button>
-            </div>
-            <div className='button-container'>
-              <button>[...]</button>
+              <input type="checkbox" />
+              <input className='passwordbutton' type="checkbox" />
+              <input className='passwordbutton' type="checkbox" />
+              <input type="checkbox" />
             </div>
           </div>
         </form>
