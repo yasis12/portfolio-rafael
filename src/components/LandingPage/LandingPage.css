@@ -26,6 +26,7 @@
     align-items: center;
     border: 1px solid #000;
     margin-right: 8px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
 .button-container:last-child {

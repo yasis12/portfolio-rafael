@@ -6,12 +6,22 @@ import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
 import DeleteIcon from '@mui/icons-material/Delete';
 import AlarmIcon from '@mui/icons-material/Alarm';
+//React
+
 
 
 function LandingPage() {
 
   const submitButton = () => {
     alert('COMPLETED');
+  }
+
+  const buttonOne = (event) => {
+    alert('Hi these are my buttons. Feel free to click around there may be a secret or two (;')
+  }
+
+  const buttonTwo = (event) => {
+    //todo: Add toast pop up.
   }
 
   return (
@@ -24,7 +34,7 @@ function LandingPage() {
         <form onSubmit={submitButton}>
           <div className='button-row'>
             <div className='button-container'>
-                <Button variant="contained" color="secondary" size="large">Click Me</Button>
+                <Button onClick={buttonOne} variant="contained" color="secondary" size="large">Click Me</Button>
             </div>
             <div className='button-container'>
             <Button variant="contained" color="error" size="large">Click Me</Button>
@@ -35,7 +45,7 @@ function LandingPage() {
             <div className='button-container'>
               <div id='radio-buttons'>
                 <input type="radio" /> 
-                <input type="radio" /> 
+                <input type="radio" /> n
                 <input type="radio" /> 
                 <input type="radio" />
               </div>
